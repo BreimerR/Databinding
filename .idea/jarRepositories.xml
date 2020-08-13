@@ -12,47 +12,39 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="injected_offline_org" />
+      <option name="name" value="injected_offline_org" />
+      <option name="url" value="file:$USER_HOME$/.android/gmaven_stable/org/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="injected_offline_android" />
+      <option name="name" value="injected_offline_android" />
+      <option name="url" value="file:$USER_HOME$/.android/gmaven_stable/android/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="injected_offline_com" />
+      <option name="name" value="injected_offline_com" />
+      <option name="url" value="file:$USER_HOME$/.android/gmaven_stable/com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="injected_offline_androidx" />
+      <option name="name" value="injected_offline_androidx" />
+      <option name="url" value="file:$USER_HOME$/.android/gmaven_stable/androidx/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="BintrayJCenter" />
       <option name="name" value="BintrayJCenter" />
       <option name="url" value="https://jcenter.bintray.com/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="injected_offline_io" />
+      <option name="name" value="injected_offline_io" />
+      <option name="url" value="file:$USER_HOME$/.android/gmaven_stable/io/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="Google" />
       <option name="name" value="Google" />
       <option name="url" value="https://dl.google.com/dl/android/maven2/" />
     </remote-repository>
-    <remote-repository>
-      <option name="id" value="$USER_HOME$/Android/Sdk/extras/google/m2repository" />
-      <option name="name" value="$USER_HOME$/Android/Sdk/extras/google/m2repository" />
-      <option name="url" value="file:$USER_HOME$/Android/Sdk/extras/google/m2repository/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="$USER_HOME$/Android/Sdk/extras/m2repository" />
-      <option name="name" value="$USER_HOME$/Android/Sdk/extras/m2repository" />
-      <option name="url" value="file:$USER_HOME$/Android/Sdk/extras/m2repository/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="$USER_HOME$/Android/Sdk/extras/android/m2repository" />
-      <option name="name" value="$USER_HOME$/Android/Sdk/extras/android/m2repository" />
-      <option name="url" value="file:$USER_HOME$/Android/Sdk/extras/android/m2repository/" />
-    </remote-repository>
-<<<<<<< HEAD
-    <remote-repository>
-      <option name="id" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\m2repository" />
-      <option name="name" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\m2repository" />
-      <option name="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/m2repository" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\google\m2repository" />
-      <option name="name" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\google\m2repository" />
-      <option name="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/google/m2repository" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\android\m2repository" />
-      <option name="name" value="C:\Users\Owe\AppData\Local\Android\Sdk\extras\android\m2repository" />
-      <option name="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/extras/android/m2repository" />
-    </remote-repository>
-=======
->>>>>>> f09ca853e3ef55068253736d958fb68b03ad32c5
   </component>
 </project>

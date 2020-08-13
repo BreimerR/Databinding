@@ -25,7 +25,7 @@ public final class DetailActivity extends AppCompatActivity {
         if (extras == null) return;
 
         //Initialize binding object by passing in the activity of interest `this` and layout id
-        //and with that you dont need to use findViewById to set values for the UI.
+        //and with that you don't need to use findViewById to set values for the UI.
         ActivityDetailBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_detail);
 
         Product product = (Product) extras.getParcelable(Constants.Keys.PRODUCT_DETAIL.toString());

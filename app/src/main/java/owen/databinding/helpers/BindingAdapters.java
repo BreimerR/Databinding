@@ -20,7 +20,7 @@ public class BindingAdapters {
      * @param imageRes id of the image resource being set
      * @see <a href="https://developer.android.com/topic/libraries/data-binding/binding-adapters">Binding Adapters</a>
      */
-    @BindingAdapter("app:setImage")
+    @BindingAdapter("setImage")
     public static void setImage(ImageView view, @DrawableRes int imageRes) {
         view.setImageResource(imageRes);
     }
